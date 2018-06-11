@@ -7,3 +7,6 @@ resource "aws_s3_bucket" "bucket1" {
     Environment = "Dev"
   }
 }
+provider "aws" {
+  region  = "us-east-1"
+}
